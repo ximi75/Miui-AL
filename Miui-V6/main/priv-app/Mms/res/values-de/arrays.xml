@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_texts">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>:-\\</item>
+        <item>":'("</item>
+        <item>:-X</item>
+        <item>:-D</item>
+        <item>o_O</item>
+        <item>&lt;3</item>
+        <item>x-(</item>
+        <item>:-/</item>
+        <item>:-I</item>
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>Glücklich</item>
+        <item>Traurig</item>
+        <item>Zwinkern</item>
+        <item>Frech</item>
+        <item>Überrascht</item>
+        <item>Kuss</item>
+        <item>Heulen</item>
+        <item>Cool</item>
+        <item>Dollarzeichen</item>
+        <item>Fettnäpfchen</item>
+        <item>Verlegen</item>
+        <item>Engel</item>
+        <item>Unentschlossen</item>
+        <item>Schreien</item>
+        <item>Verschlossene Lippen</item>
+        <item>Lachend</item>
+        <item>Verwirrt</item>
+        <item>Herz</item>
+        <item>Verrückt</item>
+        <item>Grinsend</item>
+        <item>Pokerface</item>
+    </string-array>
+    <string-array name="prefEntries_ringtone_repeat">
+        <item>1x</item>
+        <item>2x</item>
+        <item>3x</item>
+        <item>5x</item>
+        <item>10x</item>
+    </string-array>
+    <string-array name="contact_entries">
+        <item>Name</item>
+        <item>Spitzname</item>
+        <item>Telefon</item>
+        <item>E-Mail</item>
+        <item>Firma</item>
+        <item>Chat</item>
+        <item>VoIP</item>
+        <item>Geburtstag</item>
+        <item>Webseite</item>
+        <item>Adresse</item>
+        <item>Notiz</item>
+    </string-array>
+    <string-array name="entries_date_type">
+        <item>Empfangen</item>
+        <item>Gesendet</item>
+    </string-array>
+    <string-array name="resent_via_entries_sms">
+        <item>SMS</item>
+        <item>Mi-Nachricht</item>
+    </string-array>
+    <string-array name="resent_via_entries_mms">
+        <item>SMS</item>
+        <item>Mi-Nachricht</item>
+    </string-array>
+    <string-array name="select_dialog_items">
+        <item>1 Sekunde</item>
+        <item>2 Sekunden</item>
+        <item>3 Sekunden</item>
+        <item>4 Sekunden</item>
+        <item>5 Sekunden</item>
+        <item>6 Sekunden</item>
+        <item>7 Sekunden</item>
+        <item>8 Sekunden</item>
+        <item>9 Sekunden</item>
+        <item>10 Sekunden</item>
+        <item>Weitere</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Immer</item>
+        <item>Nur wenn Lautlos</item>
+        <item>Niemals</item>
+    </string-array>
+</resources>

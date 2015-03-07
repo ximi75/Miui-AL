@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="confirm_delete_has_cloud_image">
+        <item quantity="other">%s Fotos in der &amp;amp;lt;b>Cloud&amp;amp;lt;/b> löschen?</item>
+        <item quantity="one">%s Foto in der &amp;amp;lt;b>Cloud&amp;amp;lt;/b> löschen?</item>
+    </plurals>
+    <plurals name="confirm_delete_has_local_image">
+        <item quantity="other">%s Fotos löschen?</item>
+        <item quantity="one">%s Foto löschen?</item>
+    </plurals>
+    <plurals name="confirm_delete_has_cloud_video">
+        <item quantity="other">%s Videos in der &amp;amp;lt;b>Cloud&amp;amp;lt;/b> löschen?</item>
+        <item quantity="one">%s Videos in &amp;amp;lt;b>Cloud&amp;amp;lt;/b> löschen?</item>
+    </plurals>
+    <plurals name="confirm_delete_has_local_video">
+        <item quantity="other">%s Videos löschen?</item>
+        <item quantity="one">%s Video löschen?</item>
+    </plurals>
+    <plurals name="confirm_delete_has_cloud_local_image">
+        <item quantity="other">%s Fotos &amp;amp;lt;b>lokal und in der Cloud&amp;amp;lt;/b> löschen?</item>
+        <item quantity="one">%s Foto &amp;amp;lt;b>lokal und in der Cloud&amp;amp;lt;/b> löschen?</item>
+    </plurals>
+    <plurals name="confirm_delete_has_cloud_local_video">
+        <item quantity="other">%s Videos &amp;amp;lt;b>lokal und in der Cloud&amp;amp;lt;/b> löschen?</item>
+        <item quantity="one">%s Video &amp;amp;lt;b>lokal und in der Cloud&amp;amp;lt;/b> löschen?</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d ausgewählt</item>
+        <item quantity="zero">%1$d ausgewählt</item>
+        <item quantity="one">%1$d ausgewählt</item>
+    </plurals>
+    <plurals name="number_of_pictures">
+        <item quantity="other">%1$d</item>
+        <item quantity="zero">%1$d</item>
+        <item quantity="one">%1$d</item>
+    </plurals>
+    <plurals name="how_many_pics">
+        <item quantity="other">%d Fotos</item>
+        <item quantity="one">%d Foto</item>
+    </plurals>
+    <plurals name="how_many_videos">
+        <item quantity="other">%d Videos</item>
+        <item quantity="one">%d Video</item>
+    </plurals>
+    <plurals name="how_many_sub_folders">
+        <item quantity="other">%d Ordner</item>
+        <item quantity="one">%d Ordner</item>
+    </plurals>
+    <plurals name="message_no_delete_access_with_count">
+        <item quantity="other">Sie haben nicht die benötigten Rechte, um diese %d Dateien zu löschen.</item>
+        <item quantity="one">Sie haben nicht die benötigten Rechte, um diese %d Datei zu löschen.</item>
+    </plurals>
+    <plurals name="pick_with_limited_upper_bound_title">
+        <item quantity="other">Sie können %d Elemente auswählen</item>
+        <item quantity="one">Sie können %d Element auswählen</item>
+    </plurals>
+    <plurals name="number_of_images">
+        <item quantity="other">%1$d Bilder</item>
+        <item quantity="zero">%1$d Bilder</item>
+        <item quantity="one">%1$d Bild</item>
+    </plurals>
+    <plurals name="number_of_items">
+        <item quantity="other">%1$d Elemente</item>
+        <item quantity="zero">%1$d Elemente</item>
+        <item quantity="one">%1$d Element</item>
+    </plurals>
+</resources>

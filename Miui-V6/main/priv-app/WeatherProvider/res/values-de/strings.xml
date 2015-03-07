@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Wetteranbieter</string>
+    <string name="aqi_quality_index_pure">LQI %1$s</string>
+    <string name="aqi_quality_index_good">LQI %1$s</string>
+    <string name="aqi_quality_index_moderate">LQI %1$s</string>
+    <string name="aqi_quality_index_light_pollution">LQI %1$s</string>
+    <string name="aqi_quality_index_unhealthy">LQI %1$s</string>
+    <string name="aqi_quality_index_dangerous">LQI %1$s</string>
+    <string name="aqi_quality_index_hazardous">LQI %1$s</string>
+    <string name="aqi_quality_index_break">LQI %1$s</string>
+    <string name="view_indexes_wind_unit">km/h</string>
+</resources>

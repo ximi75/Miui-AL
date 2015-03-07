@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="prompt">%s versucht, eine VPN-Verbindung zu erstellen.</string>
+    <string name="warning">Wenn Sie fortfahren, gestatten Sie der App, den gesamten Netzwerkverkehr abzufangen. <b>Akzeptieren Sie dies nur, wenn Sie der App vertrauen.</b>" Ansonsten riskieren Sie, dass Ihre Daten von schadhafter Software manipuliert wird. "</string>
+    <string name="accept">Ich vertraue dieser App.</string>
+    <string name="legacy_title">VPN verbunden</string>
+    <string name="configure">Konfigurieren</string>
+    <string name="disconnect">Trennen</string>
+    <string name="session">Sitzung:</string>
+    <string name="duration">Dauer:</string>
+    <string name="data_transmitted">Gesendet:</string>
+    <string name="data_received">Empfangen:</string>
+    <string name="data_value_format">%1$s Bytes / %2$s Pakete</string>
+</resources>

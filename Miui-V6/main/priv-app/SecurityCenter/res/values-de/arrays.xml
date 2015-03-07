@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cache_sort_type">
+        <item>Größe</item>
+        <item>Name</item>
+    </string-array>
+    <string-array name="large_file_sort_type">
+        <item>Größe</item>
+        <item>Name</item>
+    </string-array>
+    <string-array name="installed_app_sort_type">
+        <item>Häufig verwendet</item>
+        <item>Größe</item>
+    </string-array>
+    <string-array name="auto_clean_time">
+        <item>Täglich</item>
+        <item>Alle 3 Tage</item>
+        <item>Alle 7 Tage</item>
+    </string-array>
+    <string-array name="auto_clean_size">
+        <item>100MB</item>
+        <item>300MB</item>
+        <item>500MB</item>
+        <item>1GB</item>
+    </string-array>
+    <string-array name="auto_process_mode">
+        <item>Nachfragen</item>
+        <item>Im Hintergrund</item>
+        <item>Benachrichtigen</item>
+    </string-array>
+    <string-array name="auto_memory_clean">
+        <item>In 1 Minute</item>
+        <item>In 5 Minuten</item>
+        <item>In 10 Minuten</item>
+        <item>Niemals</item>
+    </string-array>
+    <string-array name="power_dialog_auto_clean_memory_items">
+        <item>Nach 1 Minute</item>
+        <item>Nach 5 Minuten</item>
+        <item>Nach 10 Minuten</item>
+        <item>Niemals</item>
+    </string-array>
+    <string-array name="power_dialog_sleep_items">
+        <item>15 Sekunden</item>
+        <item>30 Sekunden</item>
+        <item>1 Minute</item>
+        <item>2 Minuten</item>
+        <item>5 Minuten</item>
+        <item>10 Minuten</item>
+        <item>Niemals</item>
+    </string-array>
+    <string-array name="power_dialog_cpu_state_items">
+        <item>Leistung</item>
+        <item>Ausbalanciert</item>
+    </string-array>
+    <string-array name="power_dialog_wifi_internet_state_items">
+        <item>Ausschalten</item>
+        <item>Einschalten</item>
+        <item>Nicht ändern</item>
+    </string-array>
+    <string-array name="power_dialog_vibration_items">
+        <item>Niemals vibrieren</item>
+        <item>Vibrieren wenn lautlos</item>
+        <item>Immer vibrieren</item>
+    </string-array>
+    <string-array name="alarm_repeat_type">
+        <item>Einmal</item>
+        <item>Täglich</item>
+        <item>Werktags</item>
+        <item>Montag-Freitag</item>
+        <item>Benutzerdefiniert</item>
+    </string-array>
+    <string-array name="alarm_repeat_type_no_workdays">
+        <item>Einmal</item>
+        <item>Täglich</item>
+        <item>Montag-Freitag</item>
+        <item>Benutzerdefiniert</item>
+    </string-array>
+</resources>

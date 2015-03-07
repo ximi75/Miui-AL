@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="IZat_MENU_TEXT">Beschleunigter Standort</string>
+    <string name="IZat_SUB_TITLE_TEXT">Qualcomm® IZat™ hardwarebeschleunigten Standort verwenden</string>
+    <string name="POPUP_BOX_TITLE">Zustimmung zur Übermittlung von Standortinformationen</string>
+    <string name="POPUP_BOX_TEXT">Um Hardwarebeschleunigung zu aktivieren, erlauben Sie IZat, Standortdaten zu erfassen. IZat speichert Daten auf Ihrem Gerät und ist möglicherweise auch dann aktiv, wenn keine Apps ausgeführt werden.</string>
+    <string name="POLICY_LINK">&lt;a href=\"http://xt.qsp.qualcomm.com/privacy/DE/privacy_policy.html\">Geschäftsbedingungen und Datenschutzrichtlinien&lt;/a></string>
+    <string name="IZAT_AGREE">Ich stimme zu</string>
+    <string name="IZAT_DISAGREE">Ich stimme nicht zu</string>
+    <string name="XT_APP_TITLE">Qualcomm IZat</string>
+</resources>
