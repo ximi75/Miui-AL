@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome">Willkommen bei</string>
+    <string name="input_method_setting">Eingabemethode auswählen</string>
+    <string name="input_method_category">Standardeingabemethode wählen, die z.B. beim Schreiben von E-Mails oder Notizen verwendet wird. Weitere Drittanbieter-Tastaturen können später installiert werden.</string>
+    <string name="provision_inputmethod_policy_description">"
+Ausgewählte Tastaturen anzeigen"</string>
+    <string name="provision_inputmethod_policy_description1">Datenschutzbestimmungen</string>
+    <string name="multisim_settings_title">2 SIM-Karten erkannt</string>
+    <string name="multisim_settings_category">SIM-Karteneinstellungen</string>
+    <string name="page_layout_title">Systemlayout</string>
+    <string name="page_layout_label">Passen Sie die Schriftgröße und das Layout für den Homescreen, die Benachrichtigungsleiste, die Wahltastatur und weitere an.</string>
+    <string name="sim_card_detection">SIM-Karte einsetzen</string>
+    <string name="sim_card_detection_info">Zum Einsetzen der SIM-Karte lesen Sie das Gerätehandbuch.</string>
+    <string name="sim_card_detecting">SIM-Karte wird überprüft...</string>
+    <string name="other_settings">Weitere Einstellungen</string>
+    <string name="other_settings_location">Standort</string>
+    <string name="other_settings_location_summary">Apps dürfen Ihren Standort lokalisieren</string>
+    <string name="other_settings_user_experience">Benutzer-Feedback</string>
+    <string name="other_settings_user_experience_summary">Anonyme Nutzerdaten senden, um MIUI zu verbessern (%s)</string>
+    <string name="other_settings_user_experience_summary1">Datenschutzbestimmungen</string>
+    <string name="next">Weiter</string>
+    <string name="sim_dectection_next">Weiter</string>
+    <string name="shut_down">Schließen</string>
+    <string name="sim_redetection">Erneut überprüfen</string>
+    <string name="title_congratulation">Sie können beginnen!</string>
+    <string name="congratulation_label" />
+    <string name="pref_title_voice_slot">Bevorzugte Telefon-SIM-Karte</string>
+    <string name="pref_title_data_slot">Bevorzugte Daten-SIM-Karte</string>
+    <string name="summary_not_set">Nicht eingestellt</string>
+    <string name="summary_sim_card">Karte %1$d%2$s</string>
+    <string name="ime_privacy_policy">Datenschutzbestimmungen der ausgewählten Tastatur</string>
+    <string name="ime_privacy_policy_no_network">Keine Netzwerkverbindung. Sehen Sie sich die Datenschutzrichtlinien für die Tastatur auf %s an</string>
+    <string name="terms_of_use">Nutzungsbedingungen</string>
+    <string name="terms_of_use_label">"Ihre Privatsphäre ist uns sehr wichtig. Bitte lesen Sie die Nutzungsbedingungen und Datenschutzrichtlinien, um zu verstehen, welche Informationen wir sammeln, wie wir diese nutzen und welche Möglichkeiten Sie haben.
+
+Sie müssen die Nutzungsbedingungen und die Datenschutzrichtlinien akzeptieren, bevor Sie MIUI nutzen können."</string>
+    <string name="user_agreement">Nutzervereinbarung</string>
+    <string name="privacy_policy">Datenschutzbestimmungen</string>
+    <string name="agree">Zustimmen</string>
+    <string name="disagree">Abbrechen</string>
+    <string name="network_access_warning">Zur Aktivierung der Mi-Dienste wird eine Internetverbindung benötigt.</string>
+    <string name="setting_locale">Standort wird eingerichtet…</string>
+    <string name="miui_terms_no_network">Keine Netzwerkverbindung. Sehen Sie sich die Nutzungsbedingungen auf %s an</string>
+    <string name="miui_privacy_policy_no_network">Keine Netzwerkverbindung. Lesen Sie die Datenschutzrichtlinien auf %s</string>
+    <string name="locale_picker_title">Standort auswählen</string>
+    <string name="locale_picker_desc">Wenn Sie Ihren Standort im späteren Verlauf ändern möchten, müssen Sie Ihr Gerät auf die Werkseinstellungen zurücksetzen</string>
+    <string name="locale_picker_confirm_dialog_title">Standorteinstellungen</string>
+    <string name="locale_picker_confirm_dialog_desc">%s als Standort wählen?</string>
+    <string name="provision_finish">OK</string>
+    <string name="provision_finish_restart">Neustart</string>
+    <string name="install_preinstall_app">Apps werden geladen…</string>
+</resources>

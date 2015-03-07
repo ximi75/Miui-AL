@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="caller_app">Berechtigungsanfrage von %1$s</string>
+    <string name="safe_guard_support">Technische Unterstützung durch %1$s</string>
+    <string name="safe_relative">Sicherheitsrelevante Rechte</string>
+    <string name="privacy_relative">Datenschutzrelevante Rechte</string>
+    <string name="other_relative">Andere Rechte</string>
+    <string name="perm_notice">Sicherheitsalarm</string>
+    <string name="trust_switch_dialog_msg">MIUI wird diese Anwendung nicht mehr überwachen und keine Warnungen mehr anzeigen.</string>
+    <string name="auto_startup_dialog_msg">MIUI genehmigt dieser App ohne Nachfrage automatisch zu starten.</string>
+    <string name="low_risk_perms">Rechte mit geringem Risiko</string>
+    <string name="high_risk_perms">Rechte mit hohem Risiko</string>
+    <string name="perm_privacy_app_finish">Fertig</string>
+    <string name="perm_privacy_app_launch">Ausführen</string>
+    <string name="perm_privacy_app_installed">Installation erfolgreich!</string>
+    <string name="perm_sysopt_boost_auto_start">Autostart-Berechtigung</string>
+    <string name="perm_sysopt_boost_auto_start_summary">Diese App automatisch ausführen!</string>
+    <string name="perm_privacy_app_trust">App vertrauen</string>
+    <string name="perm_privacy_app_trust_summary">MIUI überwacht diese App</string>
+    <string name="perm_action_accept">Zulassen</string>
+    <string name="perm_action_prompt">Fragen</string>
+    <string name="perm_action_reject">Verweigern</string>
+    <string name="unknown_installer">Unbekannte PC-Tools</string>
+    <string name="dlg_app_replacement_statement_with_version">"%1$s (%2$s) wird die derzeit installierte Version ersetzen (%3$s). Benutzerdaten bleiben erhalten.
+Jetzt installieren?"</string>
+    <string name="lift_ban">Aufheben</string>
+    <string name="uninstall_confirm_question">Möchten Sie diese Anwendung entfernen?</string>
+    <string name="uninstall_failed_retained_app_msg">Vom Betreiber angepasste Anwendung konnte nicht entfernt werden</string>
+    <string name="install_failed_system_incompatible">App ist nicht mit MIUI kompatibel.</string>
+    <string name="permission_group_title_charges_related">Telefon</string>
+    <string name="permission_group_title_privacy_related">Privatsphäre</string>
+    <string name="permission_group_title_media_related">Multimedia</string>
+    <string name="permission_group_title_settings_related">Einstellungen</string>
+    <string name="permission_group_title_others">Weitere</string>
+    <string name="permission_action_accept">Zulassen</string>
+    <string name="permission_action_prompt">Nachfragen</string>
+    <string name="permission_action_reject">Verweigern</string>
+    <string name="permission_send_sms_descx">App kann SMS und MMS versenden</string>
+    <string name="virus_scan_install"><u>Installation fortsetzen</u></string>
+    <string name="virus_scan_is_virus">Anwendung enthält ein Virus.</string>
+    <string name="virus_scan_is_risk">Anwendung stellt ein Risiko dar.</string>
+    <string name="virus_scan_clear">Löschen</string>
+    <string name="virus_scan_caller_unknown">Unbekannt</string>
+    <string name="app_name">Paket-Installer</string>
+    <string name="install">Installieren</string>
+    <string name="done">Fertig</string>
+    <string name="security_settings_desc">Ermöglicht dieser App:</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="unknown">Unbekannt</string>
+    <string name="installing">Wird installiert...</string>
+    <string name="install_done">Anwendung wurde installiert</string>
+    <string name="install_confirm_question">Möchten Sie diese Anwendung installieren?</string>
+    <string name="install_failed">Anwendung wurde nicht installiert</string>
+    <string name="install_failed_invalid_apk">Das Paket ist beschädigt.</string>
+    <string name="install_failed_inconsistent_certificates">Ein Paket mit dem gleichen Namen, aber anderer Signatur, ist bereits installiert.</string>
+    <string name="install_failed_older_sdk">Das Paket ist nur auf einer neueren Versionen von Android ausführbar.</string>
+    <string name="install_failed_cpu_abi_incompatible">Diese Anwendung ist mit Ihrem Telefon nicht kompatibel.</string>
+    <string name="install_failed_file_not_found">Das angegebene Paket wurde gelöscht, bevor die Installation abgeschlossen werden konnte.</string>
+    <string name="install_failed_verify_failed">Das Paket hat die Prüfung nicht bestanden und kann daher nicht installiert werden.</string>
+    <string name="install_failed_verify_timeout">Zeitüberschreitung bei Paketüberprüfung. Installation erneut ausführen.</string>
+    <string name="install_failed_msg">%1$s konnte nicht dem Telefon installiert werden.</string>
+    <string name="launch">Öffnen</string>
+    <string name="unknown_apps_dlg_title">Installation gesperrt</string>
+    <string name="unknown_apps_dlg_text">Aus Sicherheitsgründen können Apps aus unbekannten Quellen nicht installiert werden. Sie können dies aufheben unter Einstellungen->Sicherheit->Unbekannte Quellen.</string>
+    <string name="ok">OK</string>
+    <string name="settings">Einstellungen</string>
+    <string name="allow_source_dlg_title">Apps aus unbekannter Quelle installieren?</string>
+    <string name="allow_source_dlg_text">"%1$s möchte andere Apps installieren.
+
+Möchten Sie dies jetzt und in Zukunft zulassen?"</string>
+    <string name="manage_applications">Anwendungen verwalten</string>
+    <string name="dlg_app_replacement_title">Anwendung ersetzen</string>
+    <string name="dlg_app_replacement_statement">"Die Anwendung, die Sie installieren, wird eine andere App ersetzen.
+
+Alle bisherigen Nutzerdaten werden gespeichert."</string>
+    <string name="dlg_sys_app_replacement_statement">"Dies ist eine Systemanwendung. Trotzdem ersetzen?
+
+Alle bisherigen Nutzerdaten werden gespeichert."</string>
+    <string name="out_of_space_dlg_title">Nicht genügend freier Speicher</string>
+    <string name="out_of_space_dlg_text">%1$s nicht installiert: Nicht genügend freier Speicher.</string>
+    <string name="dlg_ok">OK</string>
+    <string name="app_not_found_dlg_title">App nicht gefunden</string>
+    <string name="app_not_found_dlg_text">Die App wurde nicht in der Liste der installierten Apps gefunden.</string>
+    <string name="uninstall_application_title">Anwendung entfernen</string>
+    <string name="uninstall_update_title">Update entfernen</string>
+    <string name="uninstall_activity_text">%1$s gehört zu folgender Anwendung:</string>
+    <string name="uninstall_application_text">Diese Anwendung wird entfernt.</string>
+    <string name="uninstall_update_text">Anwendung wird durch Werksversion ersetzt.</string>
+    <string name="uninstalling">Wird entfernt...</string>
+    <string name="uninstall_done">Anwendung wurde entfernt</string>
+    <string name="uninstall_failed">App konnte nicht entfernt werden</string>
+    <string name="uninstall_failed_device_policy_manager">Entfernen nicht möglich: Dieses Paket ist ein aktiver Geräteadministrator.</string>
+    <string name="manage_device_administrators">Geräteadministratoren verwalten</string>
+    <string name="uninstall_failed_msg">%1$s konnte nicht entfernt werden</string>
+    <string name="Parse_error_dlg_title">Lesefehler</string>
+    <string name="Parse_error_dlg_text">Beim Lesen des Paketes ist ein Fehler aufgetreten.</string>
+</resources>
