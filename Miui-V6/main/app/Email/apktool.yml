@@ -1,0 +1,21 @@
+version: 2.0.0-a7b06f-SNAPSHOT
+apkFileName: Email.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  - 8
+sdkInfo:
+  minSdkVersion: '16'
+  targetSdkVersion: '19'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '500094'
+  versionName: MIUI_V6_小米内置版_20150206_b4
+compressionType: false
+unknownFiles:
+  pinyindb/pinyin_gwoyeu_mapping.xml: '8'
+  pinyindb/pinyin_mapping.xml: '8'
+  pinyindb/unicode_to_hanyu_pinyin.txt: '8'
+  services/org.apache.tika.parser.Parser: '8'

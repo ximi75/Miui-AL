@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_files_confirm">
+        <item quantity="other">%1$d Dateien löschen</item>
+        <item quantity="zero">%1$d Dateien löschen</item>
+        <item quantity="one">%1$d Datei löschen</item>
+        <item quantity="two">%1$d Dateien löschen</item>
+        <item quantity="few">%1$ %1$d Dateien löschen</item>
+        <item quantity="many">%1$d Dateien löschen</item>
+    </plurals>
+    <plurals name="delete_folders_confirm">
+        <item quantity="other">" und %1$d Ordner?"</item>
+        <item quantity="zero">" und %1$d Ordner?"</item>
+        <item quantity="one">" und %1$d Ordner?"</item>
+        <item quantity="two">" und %1$d Ordner?"</item>
+        <item quantity="few">" und %1$d Ordner?"</item>
+        <item quantity="many">" und %1$d Ordner?"</item>
+    </plurals>
+    <plurals name="directory_item_count">
+        <item quantity="other">%d Elemente</item>
+        <item quantity="zero">%d Elemente</item>
+        <item quantity="one">%d Element</item>
+        <item quantity="two">%d Elemente</item>
+        <item quantity="few">%d Elemente</item>
+        <item quantity="many">%d Elemente</item>
+    </plurals>
+    <plurals name="ui_bar_txt_download_progress">
+        <item quantity="other">Noch %1$d Dateien zu laden</item>
+        <item quantity="zero">Noch %1$d Dateien zu laden</item>
+        <item quantity="one">Noch %1$d Datei zu laden</item>
+        <item quantity="two">Noch %1$d Dateien zu laden</item>
+        <item quantity="few">Noch %1$d Dateien zu laden</item>
+        <item quantity="many">Noch %1$d Dateien zu laden</item>
+    </plurals>
+    <plurals name="ui_bar_txt_upload_progress">
+        <item quantity="other">Noch %1$d Dateien hochzuladen</item>
+        <item quantity="zero">Noch %1$d Dateien hochzuladen</item>
+        <item quantity="one">Noch %1$d Datei hochzuladen</item>
+        <item quantity="two">Noch %1$d Dateien hochzuladen</item>
+        <item quantity="few">Noch %1$d Dateien hochzuladen</item>
+        <item quantity="many">Noch %1$d Dateien hochzuladen</item>
+    </plurals>
+    <plurals name="numSelectedFile">
+        <item quantity="other">%1$d ausgewählt</item>
+        <item quantity="zero">%1$d ausgewählt</item>
+        <item quantity="one">%1$d ausgewählt</item>
+        <item quantity="two">%1$d ausgewählt</item>
+        <item quantity="few">%1$d ausgewählt</item>
+        <item quantity="many">%1$d ausgewählt</item>
+    </plurals>
+</resources>

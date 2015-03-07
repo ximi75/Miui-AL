@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.android.email">
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <original-package android:name="com.android.kemail"/>
+    <permission android:description="@string/permission_read_attachment_desc" android:label="@string/permission_read_attachment_label" android:name="com.android.email.permission.READ_ATTACHMENT" android:permissionGroup="android.permission-group.MESSAGES" android:protectionLevel="dangerous"/>
+    <uses-permission android:name="com.android.email.permission.READ_ATTACHMENT"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <permission android:description="@string/permission_access_provider_desc" android:label="@string/permission_access_provider_label" android:name="com.android.email.permission.ACCESS_PROVIDER" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.android.email.permission.ACCESS_PROVIDER"/>
+    <application android:debuggable="false" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher_mail" android:label="@string/app_name" android:name="com.kingsoft.email.EmailApplication2" android:supportsRtl="false" android:theme="@style/UnifiedEmailTheme">
+        <meta-data android:name="db_versionCode" android:value="6"/>
+        <meta-data android:name="appId" android:value="EASO002"/>
+        <meta-data android:name="channel" android:value="miui"/>
+        <meta-data android:name="commit_id" android:value="c5d57c25afc0047a99aadaa03c1c2e68306b5cc9"/>
+        <meta-data android:name="android.app.default_searchable" android:value="com.android.email2.ui.MailActivityEmail"/>
+        <activity android:configChanges="locale|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="com.kingsoft.mail.compose.ComposeActivity" android:theme="@style/ComposeTheme" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.SENDTO"/>
+                <data android:scheme="mailto"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.SEND"/>
+                <data android:mimeType="*/*"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <data android:mimeType="*/*"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.email.intent.action.REPLY"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="ui.email2.android.com" android:pathPrefix="/compose" android:scheme="content"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="mailto"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="com.kingsoft.email.activity.AlertActivity" android:theme="@style/AlertDlgTheme"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="com.kingsoft.email.activity.ChangePWAlertActivity" android:theme="@style/AlertDlgTheme"/>
+        <activity android:label="@string/app_name" android:name="com.kingsoft.mail.compose.AddToAddressListActivity" android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity android:label="@string/app_name" android:name="com.kingsoft.email.activity.EventViewer" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="ui.email2.android.com" android:pathPrefix="/event" android:scheme="content"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/activity_folder_selection" android:name="com.kingsoft.mail.ui.FolderSelectionActivity" android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity android:label="@string/app_name" android:name="com.kingsoft.email2.ui.MailboxSelectionActivityEmail" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/shortcut_name_title" android:name="com.kingsoft.mail.ui.ShortcutNameActivity" android:theme="@style/ShortcutWidgetTheme" android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity android:label="@string/app_name" android:name="com.kingsoft.mail.ui.MailboxSelectionActivity" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/folder_shortcut_widget_label" android:name="com.kingsoft.email2.ui.CreateShortcutActivityEmail" android:theme="@style/ShortcutWidgetTheme" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="com.kingsoft.email2.ui.MailActivityEmail" android:theme="@style/PlainUnifiedEmailTheme" android:uiOptions="splitActionBarWhenNarrow" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="content"/>
+                <data android:mimeType="application/email-ls"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable"/>
+        </activity>
+        <activity-alias android:label="@string/app_name" android:name="com.android.email.activity.Welcome" android:targetActivity="com.kingsoft.email2.ui.MailActivityEmail" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.APP_EMAIL"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <data android:host="ui.email.android.com" android:path="/view/mailbox" android:scheme="content"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:exported="true" android:label="@string/account_setup_basics_title" android:name="com.kingsoft.email.activity.setup.AccountSetupBasics" android:theme="@style/Theme.AutoCompleteTextView" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="com.android.email.CREATE_ACCOUNT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:label="@string/account_setup_basics_title" android:name="com.kingsoft.email.activity.setup.AccountSetupList" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="com.android.email.CREATE_ACCOUNT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/account_setup_account_type_title" android:name="com.kingsoft.email.activity.setup.AccountSetupType" android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity android:label="@string/account_setup_account_type_title" android:name="com.kingsoft.email.activity.setup.DisturbSettingActivity" android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/account_setup_options_title" android:name="com.kingsoft.email.activity.setup.AccountSetupOptions" android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity android:label="@string/account_setup_names_title" android:name="com.kingsoft.email.activity.setup.AccountSetupNames" android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity android:name="com.kingsoft.email.activity.setup.AccountSetupServer" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:label="@string/settings_activity_title" android:name="com.kingsoft.email.activity.setup.AccountSettings" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="com.android.email.activity.setup.ACCOUNT_MANAGER_ENTRY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="ui.email.android.com" android:pathPrefix="/settings" android:scheme="content"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MANAGE_NETWORK_USAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:label="@string/app_name" android:name="com.android.email.activity.setup.SystemAccountSettings" android:targetActivity="com.kingsoft.email.activity.setup.AccountSettings" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter android:priority="50">
+                <action android:name="miui.intent.action.APP_SETTINGS"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:label="@string/folder_picker_title" android:name="com.kingsoft.email.provider.FolderPickerActivity" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="ui.email.android.com" android:pathPrefix="/setup" android:scheme="content"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/account_security_title" android:name="com.kingsoft.email.activity.setup.AccountSecurity" android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity android:label="@string/mailbox_settings_activity_title" android:name="com.kingsoft.email.activity.setup.MailboxSettings" android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity android:label="@string/app_name" android:name="com.kingsoft.mail.photo.MailPhotoViewActivity" android:theme="@style/Theme.AppCompat" android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity android:label="@string/app_name" android:name="com.kingsoft.mail.browse.EmlViewerActivity" android:theme="@style/UnifiedEmailTheme" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="message/rfc822"/>
+                <data android:mimeType="application/eml"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.kingsoft.email.mail.attachment.AttachmentManagerActivity" android:theme="@style/AttachmentUnifiedEmailTheme" android:uiOptions="splitActionBarWhenNarrow" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.kingsoft.email.mail.attachment.ZipViewerActivity" android:theme="@style/AttachmentUnifiedEmailTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.kingsoft.mail.compose.ContactListActivity" android:theme="@style/AttachmentUnifiedEmailTheme" android:uiOptions="splitActionBarWhenNarrow"/>
+        <provider android:authorities="com.android.provider.contact" android:exported="true" android:label="@string/contact_content_provider" android:name="com.kingsoft.email.provider.ContactProvider" android:permission="com.android.email.permission.ACCESS_PROVIDER">
+            <grant-uri-permission android:pathPattern=".*"/>
+        </provider>
+        <provider android:authorities="com.android.email2.conversation.provider" android:exported="true" android:label="@string/conversation_content_provider" android:name="com.kingsoft.mail.browse.EmailConversationProvider" android:permission="com.android.email.permission.ACCESS_PROVIDER">
+            <grant-uri-permission android:pathPattern=".*"/>
+        </provider>
+        <provider android:authorities="com.android.email3.accountcache" android:exported="true" android:label="@string/account_cache_provider" android:name="com.kingsoft.mail.providers.EmailAccountCacheProvider" android:permission="com.android.email.permission.ACCESS_PROVIDER">
+            <grant-uri-permission android:pathPattern=".*"/>
+        </provider>
+        <provider android:authorities="com.android.email.provider.eml.attachment" android:exported="false" android:name="com.kingsoft.mail.providers.EmlAttachmentProvider" android:permission="com.android.email.permission.ACCESS_PROVIDER">
+            <grant-uri-permission android:pathPattern=".*"/>
+        </provider>
+        <provider android:authorities="com.android.mail.providers.SuggestionsProvider" android:exported="false" android:name="com.kingsoft.mail.providers.SuggestionsProvider" android:permission="com.android.email.permission.ACCESS_PROVIDER">
+            <grant-uri-permission android:pathPattern=".*"/>
+        </provider>
+        <service android:name="com.kingsoft.mail.compose.EmptyService"/>
+        <receiver android:label="@string/app_name" android:name="com.kingsoft.email.provider.WidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.mail.ACTION_NOTIFY_DATASET_CHANGED"/>
+                <data android:mimeType="application/email-ls"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.mail.ACTION_UPDATE_WIDGET"/>
+                <data android:mimeType="application/email-ls"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.mail.ACTION_VALIDATE_ALL_WIDGETS"/>
+                <data android:mimeType="application/email-ls"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_info"/>
+        </receiver>
+        <service android:exported="false" android:name="com.kingsoft.mail.widget.WidgetService" android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <receiver android:enabled="true" android:name="com.kingsoft.email.service.AttachmentDownloadService$Watchdog"/>
+        <receiver android:enabled="true" android:name="com.kingsoft.email.mail.store.ImapPushFolder$Watchdog"/>
+        <receiver android:enabled="true" android:name="com.kingsoft.email.service.EmailUpgradeBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:name="com.kingsoft.email.service.EmailBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+                <action android:name="android.accounts.LOGIN_ACCOUNTS_CHANGED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.mail.action.update_notification" android:priority="-10"/>
+                <data android:mimeType="application/email-ls"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SECRET_CODE"/>
+                <data android:host="36245" android:scheme="android_secret_code"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.kingsoft.email.service.EmailBroadcastProcessorService"/>
+        <receiver android:description="@string/device_admin_description" android:label="@string/device_admin_label" android:name="com.kingsoft.email.SecurityPolicy$PolicyAdmin" android:permission="android.permission.BIND_DEVICE_ADMIN">
+            <meta-data android:name="android.app.device_admin" android:resource="@xml/device_admin"/>
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="false" android:name="com.kingsoft.email.service.AttachmentDownloadService"/>
+        <service android:name="com.kingsoft.email.service.ImapPushService"/>
+        <service android:enabled="true" android:exported="true" android:name="com.kingsoft.email.service.Pop3AuthenticatorService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator_pop3"/>
+        </service>
+        <service android:enabled="false" android:exported="true" android:name="com.kingsoft.email.service.ImapAuthenticatorService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator_imap"/>
+        </service>
+        <service android:exported="true" android:name="com.kingsoft.email.service.Pop3SyncAdapterService">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter"/>
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/syncadapter_pop3"/>
+        </service>
+        <service android:exported="true" android:name="com.kingsoft.email.service.LegacyImapSyncAdapterService">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter"/>
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/syncadapter_legacy_imap"/>
+        </service>
+        <service android:enabled="true" android:name="com.kingsoft.email.service.PolicyService" android:permission="com.android.email.permission.ACCESS_PROVIDER">
+            <intent-filter>
+                <action android:name="com.android.email.POLICY_INTENT"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:name="com.kingsoft.email.service.AccountService" android:permission="com.android.email.permission.ACCESS_PROVIDER">
+            <intent-filter>
+                <action android:name="com.android.email.ACCOUNT_INTENT"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:name="com.kingsoft.email.service.ImapService" android:permission="com.android.email.permission.ACCESS_PROVIDER">
+            <intent-filter>
+                <action android:name="com.android.email.IMAP_INTENT"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:name="com.kingsoft.email.service.Pop3Service" android:permission="com.android.email.permission.ACCESS_PROVIDER">
+            <intent-filter>
+                <action android:name="com.android.email.POP3_INTENT"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.kingsoft.email.service.EasAuthenticatorService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator_eas"/>
+        </service>
+        <service android:enabled="false" android:exported="true" android:name="com.kingsoft.email.service.EasTestAuthenticatorService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/eastest_authenticator"/>
+        </service>
+        <service android:enabled="false" android:exported="true" android:name="com.kingsoft.email.service.EasAuthenticatorServiceAlternate">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator_alternate"/>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="com.kingsoft.email.service.LegacyImapAuthenticatorService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator_legacy_imap"/>
+        </service>
+        <provider android:authorities="com.android.email.attachmentprovider" android:exported="true" android:grantUriPermissions="true" android:name="com.kingsoft.email.provider.AttachmentProvider" android:readPermission="com.android.email.permission.READ_ATTACHMENT" android:writePermission="com.android.email.permission.ACCESS_PROVIDER"/>
+        <provider android:authorities="com.android.email.provider;com.android.email.notifier" android:exported="true" android:label="@string/app_name" android:name="com.kingsoft.email.provider.EmailProvider" android:permission="com.android.email.permission.ACCESS_PROVIDER"/>
+        <service android:enabled="true" android:exported="false" android:name="com.kingsoft.email.service.LegacyEmailAuthenticatorService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator_legacy_email"/>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="com.kingsoft.email.service.LegacyEasAuthenticatorService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator_legacy_eas"/>
+        </service>
+        <service android:exported="false" android:name="com.kingsoft.email.EmailIntentService">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+                <action android:name="com.android.mail.action.RESEND_NOTIFICATIONS"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.mail.action.CLEAR_NEW_MAIL_NOTIFICATIONS"/>
+                <data android:scheme="content"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.kingsoft.mail.NotificationActionIntentService">
+            <intent-filter>
+                <action android:name="com.android.mail.action.notification.MARK_READ"/>
+                <action android:name="com.android.mail.action.notification.ARCHIVE"/>
+                <action android:name="com.android.mail.action.notification.DELETE"/>
+                <action android:name="com.android.mail.action.notification.UNDO"/>
+                <action android:name="com.android.mail.action.notification.DESTRUCT"/>
+                <action android:name="com.android.mail.action.notification.UNDO_TIMEOUT"/>
+                <action android:name="com.android.mail.action.notification.REPLY"/>
+                <action android:name="com.android.mail.action.notification.REPLY_ALL"/>
+                <action android:name="com.android.mail.action.notification.FORWARD"/>
+                <action android:name="com.android.mail.action.notification.RESEND"/>
+                <action android:name="com.android.mail.action.notification.NO_RESEND"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.kingsoft.mail.MailLogService"/>
+        <service android:name="com.kingsoft.mail.browse.EmlTempFileDeletionService"/>
+        <receiver android:name="com.kingsoft.emailsync.EmailSyncAlarmReceiver"/>
+        <receiver android:name="com.kingsoft.emailsync.MailboxAlarmReceiver"/>
+        <service android:exported="true" android:name="com.kingsoft.exchange.service.EmailSyncAdapterService">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter"/>
+                <action android:name="com.android.email.EXCHANGE_INTENT"/>
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/syncadapter_email"/>
+        </service>
+        <service android:exported="true" android:name="com.kingsoft.exchange.service.ContactsSyncAdapterService">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter"/>
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/syncadapter_contacts"/>
+        </service>
+        <service android:exported="true" android:name="com.kingsoft.exchange.service.CalendarSyncAdapterService">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter"/>
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/syncadapter_calendar"/>
+        </service>
+        <provider android:authorities="com.android.exchange.directory.provider" android:exported="true" android:multiprocess="false" android:name="com.kingsoft.exchange.provider.ExchangeDirectoryProvider" android:readPermission="android.permission.READ_CONTACTS">
+            <meta-data android:name="android.content.ContactDirectory" android:value="true"/>
+        </provider>
+        <activity android:name="com.kingsoft.exchange.EasCertificateRequestor">
+            <intent-filter>
+                <action android:name="com.android.emailcommon.REQUEST_CERT"/>
+                <data android:path="/certrequest" android:scheme="eas"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.kingsoft.exchange.SettingsRedirector">
+            <intent-filter>
+                <action android:name="android.intent.action.MANAGE_NETWORK_USAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.kingsoft.exchange.ExchangeBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.accounts.LOGIN_ACCOUNTS_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.kingsoft.email.service.CheckSendResultReceiver">
+            <intent-filter>
+                <action android:name="com.kingsoft.email.action.CHECK_SEND_RESULT"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.kingsoft.email.statistics.KingsoftAgentDebugActivity"/>
+        <receiver android:name="com.kingsoft.email.statistics.MiuiUserEventUpLoadReceiver">
+            <intent-filter>
+                <action android:name="action.userevent.upload"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>
