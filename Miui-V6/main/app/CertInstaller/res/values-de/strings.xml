@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zertifikat-Installer</string>
+    <string name="pick_file_title">Zertifikat auswählen</string>
+    <string name="pkcs12_password_dialog_title">Zertifikat extrahieren</string>
+    <string name="extracting_pkcs12">Extrahiere…</string>
+    <string name="pkcs12_file_password_dialog_title">Extrahiere aus %s</string>
+    <string name="name_credential_dialog_title">Zertifikat benennen</string>
+    <string name="credential_name">Zertifikationsname:</string>
+    <string name="credential_password">Kennwort zum Extrahieren eingeben.</string>
+    <string name="credential_info">Das Paket enthält:</string>
+    <string name="p12_description">Zertifikate im PKCS12-Keystore.</string>
+    <string name="one_userkey">Ein Benutzersschlüssel</string>
+    <string name="one_usercrt">Ein Benutzerzertifikat</string>
+    <string name="one_cacrt">Ein CA-Zertifikat</string>
+    <string name="n_cacrts">%d CA-Zertifikate</string>
+    <string name="password_error">Korrektes Kennwort eingeben.</string>
+    <string name="password_empty_error">Kennwort eingeben.</string>
+    <string name="name_empty_error">Namen eingeben.</string>
+    <string name="name_char_error">Name eingeben, der nur Buchstaben und Zahlen enthält.</string>
+    <string name="storage_error">Zertifikat konnte nicht gespeichert werden. Zum Wiederholen auf \"OK\" tippen.</string>
+    <string name="unable_to_save_cert">Zertifikat konnte nicht gespeichert werden. Der Cedential-Speicher ist nicht aktiviert bzw. initialisiert.</string>
+    <string name="cert_not_saved">Zertifikat nicht installiert.</string>
+    <string name="no_cert_to_saved">Kein Zertifikat zum Installieren.</string>
+    <string name="invalid_cert">Zertifikat ist ungültig.</string>
+    <string name="cert_is_added">%s ist installiert.</string>
+    <string name="cert_too_large_error">Konnte nicht installiert werden, weil die Zertifikationsgröße überschritten wurde.</string>
+    <string name="cert_missing_error">Konnte nicht installiert werden, weil die Zertifikationsdatei nicht gefunden werden konnte.</string>
+    <string name="cert_read_error">Konnte nicht installiert werden, weil die Zertifikationsdatei nicht gelesen werden konnte.</string>
+    <string name="no_cert_file_found">Keine Zertifikationsdatei auf dem USB-Speicher gefunden.</string>
+    <string name="sdcard_not_present">USB-Speicher nicht verfügbar.</string>
+    <string name="only_primary_user_allowed">Nur dem Besitzer des Gerätes ist es erlaubt, Zertifikate zu installieren.</string>
+    <string name="credential_usage_label">Credential use:</string>
+</resources>

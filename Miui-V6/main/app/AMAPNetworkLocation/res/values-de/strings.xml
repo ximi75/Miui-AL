@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Netzwerkstandort</string>
+    <string name="location_warning_title">Standortfreigabe</string>
+    <string name="location_warning_message">Genehmigt dem Ortungsdienst des Navigationssystems lokale Daten anonym zu erfassen. Einige Daten werden möglicherweise auf dem Gerät gespeichert. Die Datenerfassung wird ausgeführt, wenn keine Anwendungen aktiv sind. Während des Prozesses können Kosten für die Datennutzung entstehen.</string>
+    <string name="agree">Zustimmen</string>
+    <string name="disagree">Ablehnen</string>
+</resources>

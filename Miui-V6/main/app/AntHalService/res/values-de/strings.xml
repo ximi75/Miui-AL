@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ANT-HAL-Service</string>
+    <string name="permdesc_antradio">Genehmigt der Anwendung ANT Radio direkt zu konfigurieren. Schädliche Anwendungen könnten die Bereitstellung von ANT Funktionalitäten des ANT Radio Service zu weiteren Anwendungen unterbinden.</string>
+    <string name="permlab_antradio">ANT-Hardware benutzen</string>
+    <string name="permdesc_ant">Genehmigt der Anwendung, in Verwendung des Proxy-Service, mit ANT-Geräten zu kommunizieren. Schädliche Anwendungen könnten unberechtigt Daten von bzw. zu ANT Geräten übertragen.</string>
+    <string name="permlab_ant">ANT-Radio Interface benutzen</string>
+    <string name="permdesc_antAdmin">Genehmigt der Anwendung, in Verwendung des Proxy-Service, ANT-Radio direkt zu konfigurieren. Schädliche Anwendungen könnten den Zugriff von weiteren ANT Anwendungen auf das ANT Gerät unterbinden.</string>
+    <string name="permlab_antAdmin">ANT-Radio Konfiguration überprüfen</string>
+</resources>
