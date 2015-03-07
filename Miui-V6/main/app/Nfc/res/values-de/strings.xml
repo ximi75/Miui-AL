@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NFC-Dienst</string>
+    <string name="nfcUserLabel">NFC</string>
+    <string name="inbound_me_profile_title">Kontakt per NFC erhalten</string>
+    <string name="inbound_me_profile_text">Tippen, um Person als Kontakt hinzuzufügen</string>
+    <string name="outbound_me_profile_title">NFC-Interaktion abgeschlossen</string>
+    <string name="outbound_me_profile_text">Antippen, um Ihre Kontaktinformationen an diese Person weiterzugeben</string>
+    <string name="accessibility_nfc_enabled">NFC aktiviert</string>
+    <string name="touch">Zum Beamen berühren</string>
+    <string name="beam_progress">Beam wird empfangen...</string>
+    <string name="beam_outgoing">Beamen...</string>
+    <string name="beam_complete">Beamen abgeschlossen</string>
+    <string name="beam_failed">Beam wurde nicht abgeschlossen.</string>
+    <string name="beam_canceled">Beam abgebrochen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="beam_touch_to_view">Zum Anzeigen berühren</string>
+    <string name="beam_handover_not_supported">Das Gerät des Empfängers unterstützt die Übertragung großer Dateien durch Beamen nicht.</string>
+    <string name="beam_try_again">Geräte erneut aneinander halten</string>
+    <string name="connecting_headset">Verbinde</string>
+    <string name="connected_headset">Verbunden</string>
+    <string name="connect_headset_failed">Verbindung nicht möglich</string>
+    <string name="disconnecting_headset">Trennen</string>
+    <string name="disconnected_headset">Getrennt</string>
+    <string name="pairing_headset">Paaren erfolgt</string>
+    <string name="pairing_headset_failed">Paaren nicht möglich</string>
+    <string name="failed_to_enable_bt">Bluetooth konnte nicht aktiviert werden.</string>
+    <string name="confirm_pairing">Bluetooth-Gerät %1$s wirklich koppeln?</string>
+    <string name="pair_yes">Ja</string>
+    <string name="pair_no">Nein</string>
+    <string name="tap_again_to_pay">Erneut tippen, um mit %1$s zu bezahlen</string>
+    <string name="tap_again_to_complete">Erneut tippen, um mit %1$s abzuschließen</string>
+    <string name="transaction_failure">Transaktion kann nicht mit %1$s abgeschlossen werden.</string>
+    <string name="could_not_use_app">Kann %1$s nicht verwenden.</string>
+    <string name="pay_with">Bezahlen mit</string>
+    <string name="complete_with">Abschließen mit</string>
+    <string name="default_pay_app_removed">Ihr bevorzugter Dienst zum Tippen &amp; Bezahlen wurde entfernt. Einen anderen auswählen?</string>
+</resources>

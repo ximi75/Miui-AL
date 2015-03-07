@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="contact_entries">
+        <item>Name</item>
+        <item>Spitzname</item>
+        <item>Telefon</item>
+        <item>E-Mail</item>
+        <item>Firma</item>
+        <item>Chat</item>
+        <item>VoIP</item>
+        <item>Geburtstag</item>
+        <item>Webseite</item>
+        <item>Adresse</item>
+        <item>Notizen</item>
+    </string-array>
+    <string-array name="font_size_names">
+        <item>Klein</item>
+        <item>Normal</item>
+        <item>Groß</item>
+        <item>Sehr Groß</item>
+    </string-array>
+    <string-array name="welcome_notes_content">
+        <item>"Das decuro Team heißt Sie herzlich willkommen!
+"</item>
+        <item>"Bei Fragen besuchen Sie uns auf www.decuro.de!
+"</item>
+    </string-array>
+</resources>
