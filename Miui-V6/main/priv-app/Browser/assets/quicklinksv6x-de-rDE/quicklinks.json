@@ -1,0 +1,106 @@
+{
+    "versionCode": "1",
+    "quicklinks": {
+        "data": [
+            {
+                "movable": true,
+                "deletable": false,
+                "recommend": true,
+                "site": {
+                    "title": "decuro.de",
+                    "url": "http://decuro.de/"
+                }
+            },
+            {
+                "movable": true,
+                "deletable": false,
+                "recommend": true,
+                "site": {
+                    "title": "Geekvida",
+                    "url": "http://www.geekvida.de/"
+                }
+            },
+            {
+                "movable": true,
+                "deletable": false,
+                "recommend": false,
+                "site": {
+                    "title": "Facebook",
+                    "url": "http://www.facebook.com/decuro"
+                }
+            },
+            {
+                "movable": true,
+                "deletable": false,
+                "recommend": false,
+                "site": {
+                    "title": "Twitter",
+                    "url": "http://twitter.com/decuro_de"
+                }
+            },
+            {
+                "movable": true,
+                "deletable": true,
+                "recommend": false,
+                "site": {
+                    "title": "Google",
+                    "url": "http://www.google.com/"
+                }
+            },
+            {
+                "movable": true,
+                "deletable": true,
+                "recommend": false,
+                "site": {
+                    "title": "Wikipedia",
+                    "url": "http://www.wikipedia.org/"
+                }
+            },
+            {
+                "movable": true,
+                "deletable": true,
+                "recommend": false,
+                "site": {
+                    "title": "eBay",
+                    "url": "http://www.ebay.de/"
+                }
+            },
+            {
+                "movable": true,
+                "deletable": true,
+                "recommend": false,
+                "site": {
+                    "title": "N24",
+                    "url": "http://www.n24.de/"
+                }
+            },
+            {
+                "movable": true,
+                "deletable": true,
+                "recommend": false,
+                "site": {
+                    "title": "MIUI EN",
+                    "url": "http://en.miui.com"
+                }
+            },
+            {
+                "movable": true,
+                "deletable": true,
+                "recommend": false,
+                "site": {
+                    "title": "kicker",
+                    "url": "http://www.kicker.de/"
+                }
+            },
+            {
+                "movable": true,
+                "deletable": true,
+                "recommend": false,
+                "site": {
+                    "title": "Wetter",
+                    "url": "http://www.wetter.de/"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="backup_dialog_content_type">
+        <item>WLAN</item>
+        <item>Alle Apps</item>
+    </string-array>
+    <string-array name="system_package_label">
+        <item>Browser</item>
+        <item>Berechtigungen</item>
+        <item>Kamera</item>
+        <item>Datenverbrauch</item>
+        <item>Wetterdaten</item>
+        <item>Wetter</item>
+    </string-array>
+    <string-array name="system_data_label">
+        <item>Kontakte</item>
+        <item>Anrufliste</item>
+        <item>SMS</item>
+        <item>MMS</item>
+        <item>System</item>
+        <item>WLAN</item>
+        <item>Homescreen-Layout</item>
+        <item>Wecker</item>
+        <item>Notizen</item>
+        <item>Privat</item>
+        <item>Konto</item>
+    </string-array>
+    <string-array name="app_type_desc">
+        <item>Daten</item>
+        <item>Apps</item>
+        <item>Apps und Daten</item>
+    </string-array>
+    <string-array name="cloud_data_label">
+        <item>Kontakte</item>
+        <item>Anrufliste</item>
+        <item>SMS/MMS</item>
+        <item>WLAN</item>
+        <item>Notizen</item>
+    </string-array>
+    <string-array name="cloud_account_data">
+        <item>Kontakte</item>
+        <item>WLAN</item>
+        <item>Notizen</item>
+    </string-array>
+    <string-array name="cloud_sim_data">
+        <item>Anruflisten</item>
+        <item>SMS/MMS</item>
+    </string-array>
+</resources>
