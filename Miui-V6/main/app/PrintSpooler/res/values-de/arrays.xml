@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="color_mode_labels">
+        <item>Schwarz &amp; Weiß</item>
+        <item>Farbe</item>
+    </string-array>
+    <string-array name="orientation_labels">
+        <item>Hochformat</item>
+        <item>Querformat</item>
+    </string-array>
+    <string-array name="page_options_labels">
+        <item>Alle</item>
+        <item>Bereich</item>
+    </string-array>
+</resources>
