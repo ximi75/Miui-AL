@@ -12,7 +12,7 @@
     <string name="create_table_keyword">CREATE TABLE keyword( _id INTEGER PRIMARY KEY AUTOINCREMENT, data TEXT NOT NULL DEFAULT NULL, cloudUid TEXT DEFAULT NULL, type TEXT DEFAULT 0 );</string>
     <string name="create_table_mode">CREATE TABLE mode( _id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL DEFAULT NULL, state TEXT NOT NULL DEFAULT NULL );</string>
     <string name="create_table_sim">CREATE TABLE sim( _id INTEGER PRIMARY KEY AUTOINCREMENT, sim_id TEXT NOT NULL, call_wait TEXT DEFAULT -1, name TEXT DEFAULT NULL, backsound_mode TEXT DEFAULT -1 );</string>
-    <string name="app_name">Blocklist</string>
+    <string name="app_name">Lista e te Bllokuarve</string>
     <string name="fw_blocked">Blocklist</string>
     <string name="fw_blocked_count">"Blocked "</string>
     <string name="fw_blocked_join">" and "</string>
@@ -20,16 +20,16 @@
     <string name="tab_block_log">Block log</string>
     <string name="tab_blacklist">Blocklist</string>
     <string name="tab_sms">SMS</string>
-    <string name="tab_call">Calls</string>
+    <string name="tab_call">Telefonatat</string>
     <string name="bl_block_info" formatted="false">Calls: %d | SMS: %d</string>
-    <string name="bl_no_block_call">No blocked calls.</string>
-    <string name="bl_no_block_sms">No blocked SMS.</string>
-    <string name="bl_no_blacklist">No blocked numbers.</string>
-    <string name="wl_no_whitelist">No exceptions.</string>
+    <string name="bl_no_block_call">Nuk ka telefonatat të bllokuara.</string>
+    <string name="bl_no_block_sms">Nuk ka SMS të bllokuara.</string>
+    <string name="bl_no_blacklist">Nuk ka numra të bllokuara.</string>
+    <string name="wl_no_whitelist">Nuk ka përjashtime.</string>
     <string name="log_count">(%d)</string>
-    <string name="tab_block_log_unKnowNumber">Private number</string>
-    <string name="user_define_title">Add rules</string>
-    <string name="blacklist_prefix_add_hint">Block all numbers that begin with this prefix</string>
+    <string name="tab_block_log_unKnowNumber">Numri i panjohur</string>
+    <string name="user_define_title">Shto rregulla</string>
+    <string name="blacklist_prefix_add_hint">Bllokojë të gjitha numrat që fillojnë me këtë prefix</string>
     <string name="whitelist_prefix_add_hint">Add all numbers with prefix to exceptions</string>
     <string name="customizer_mode_user_define_name">My rules</string>
     <string name="all_address_choose_hint">All numbers in this province</string>
