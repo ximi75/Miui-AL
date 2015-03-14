@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ANT HAL Service</string>
-    <string name="permdesc_antradio">Allows the application to directly configure the ANT radio. Malicious applications may prevent the ANT Radio Service from providing ANT functionality to oter applications.</string>
-    <string name="permlab_antradio">use ANT hardware</string>
-    <string name="permdesc_ant">Allows the application to communicate with ANT devices using the proxy service. Malicious applications may acquire information from, or transmit to, ANT devices without your knowledge.</string>
-    <string name="permlab_ant">use ANT radio interface</string>
-    <string name="permdesc_antAdmin">Allows the application to directly configure the ANT radio through the proxy service. Malicious applications may prevent other ANT applications from connecting to ANT devices.</string>
-    <string name="permlab_antAdmin">control ANT radio configuration</string>
+    <string name="app_name">ANT HAL shërbim</string>
+    <string name="permdesc_antradio">Lejon aplikimi për konfigurimin drejtpërdrejt radion Ant. Aplikacionet me qëllim të keq mund të parandalojnë Radio Shërbimi milingonë nga dhënia funksionalitetin Ant për aplikime të tjera.</string>
+    <string name="permlab_antradio">përdorni hardware ANT</string>
+    <string name="permdesc_ant">ejon aplikimin për të komunikuar me pajisje të milingonë duke përdorur shërbimin prokurë. Aplikacionet me qëllim të keq mund të marrë informacion nga, ose të transmetojë për të, pajisjet Ant pa dijeninë tuaj.</string>
+    <string name="permlab_ant">përdorin radio ndërfaqe ANT</string>
+    <string name="permdesc_antAdmin">Lejon aplikimi për konfigurimin drejtpërdrejt radion ANT nëpërmjet shërbimit prokurë. Aplikacionet me qëllim të keq mund të parandalojë aplikacionet e tjera ANT nga lidh me pajisje të ANT.</string>
+    <string name="permlab_antAdmin">Kontrolluar konfigurimin radio ANT</string>
 </resources>
