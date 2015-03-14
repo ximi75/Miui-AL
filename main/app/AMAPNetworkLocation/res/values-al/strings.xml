@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_label">Network Location</string>
-    <string name="location_warning_title">Location consent</string>
-    <string name="location_warning_message">"Allow AutoNavi's location service to collect anonymous location data. Some data may be stored on your device, and collection may occur even when no apps are running. Applicable data usage fees may apply during this process."</string>
-    <string name="agree">Agree</string>
-    <string name="disagree">Disagree</string>
+    <string name="app_label">Rrjeti i Vendndodhjes</string>
+    <string name="location_warning_title">Vendndodhja pëlqimi</string>
+    <string name="location_warning_message">"Lejo shërbim AutoNavi s vend për të mbledhur të dhëna anonime vendndodhjen. Disa të dhëna mund të ruhet në pajisjen tuaj, dhe mbledhja mund të ndodhë edhe kur nuk ka aplikacione të vrapojnë. Tarifat e përdorimit të dhënave mund të zbatohen gjatë këtij procesi."</string>
+    <string name="agree">Pajtohem</string>
+    <string name="disagree">Nuk Pajtohem</string>
 </resources>
