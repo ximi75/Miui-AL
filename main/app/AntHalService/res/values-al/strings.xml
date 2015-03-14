@@ -3,7 +3,7 @@
     <string name="app_name">ANT HAL shërbim</string>
     <string name="permdesc_antradio">Lejon aplikimi për konfigurimin drejtpërdrejt radion Ant. Aplikacionet me qëllim të keq mund të parandalojnë Radio Shërbimi milingonë nga dhënia funksionalitetin Ant për aplikime të tjera.</string>
     <string name="permlab_antradio">përdorni hardware ANT</string>
-    <string name="permdesc_ant">ejon aplikimin për të komunikuar me pajisje të milingonë duke përdorur shërbimin prokurë. Aplikacionet me qëllim të keq mund të marrë informacion nga, ose të transmetojë për të, pajisjet Ant pa dijeninë tuaj.</string>
+    <string name="permdesc_ant">Lejon aplikimin për të komunikuar me pajisje të milingonë duke përdorur shërbimin prokurë. Aplikacionet me qëllim të keq mund të marrë informacion nga, ose të transmetojë për të, pajisjet Ant pa dijeninë tuaj.</string>
     <string name="permlab_ant">përdorin radio ndërfaqe ANT</string>
     <string name="permdesc_antAdmin">Lejon aplikimi për konfigurimin drejtpërdrejt radion ANT nëpërmjet shërbimit prokurë. Aplikacionet me qëllim të keq mund të parandalojë aplikacionet e tjera ANT nga lidh me pajisje të ANT.</string>
     <string name="permlab_antAdmin">Kontrolluar konfigurimin radio ANT</string>
